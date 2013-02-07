@@ -223,8 +223,6 @@ if(isset($_REQUEST['tag']) && $_REQUEST['tag']!='') {
     echo "Access Denied";
 }
 
-//Wrtie a new line before checking function
-
 function checking($sql){
 			
                         			if($sql>0){
